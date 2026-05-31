@@ -1,0 +1,433 @@
+
+    
+
+.img-bannerM {
+  
+  display: block;
+  height: 90%;
+  width: 90%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+
+
+}
+
+.img-banner {
+
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.picture {
+
+  display: block;
+  height: 80%;
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 100px;
+  margin-bottom: 120px;
+
+
+}
+
+body {
+
+  background-color: black;
+}
+
+.bodytext {
+
+  background-color: white;
+
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+  font-size: 45px;
+  line-height: 65px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+
+}
+
+.MainHeadline {
+
+  text-align: center;
+  margin-top: 40px;
+
+
+  font-size: 65px;
+  line-height: 75px;
+
+  padding-top: 30px;
+
+  padding-bottom: 30px;
+
+  padding-left: 35px;
+  padding-right: 35px;
+
+  color: yellow;
+
+
+}
+
+video {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  height: 90%;
+  width: 90%;
+
+
+
+
+}
+
+.pro {
+  font-weight: bolder;
+  color: RED;
+}
+
+.video1 {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  height: 100%;
+  width: 100%;
+
+
+
+
+
+}
+
+  /* Footer Section */
+  
+  .footer2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    color:white;
+    background-color: black;
+    
+    }
+    
+    .footerindex {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:black;
+      background-color: yellow;
+      
+      }
+
+      .footerpicture {
+
+        display: block;
+        height: 60%;
+        width: 60%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+        border-radius: 20px;
+
+
+
+      }
+
+      .btn2 {
+
+        color: black;
+        background-color: #E8BAE3;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+      }
+
+      .btn2:hover {
+
+        background-color: aqua;
+        color: black;
+
+      }
+
+      .flexArea {
+
+        display: flex;
+        gap:20px;
+
+        flex-direction:column;
+
+
+      }
+
+
+      .indexPicFlex {
+
+
+        height: 100%;
+        width: 100%;
+
+      }
+
+  
+
+
+  
+    
+  /* DESKTOP VIEW BELOW */
+
+
+    @media screen and (min-width:1000px) {
+
+
+      .img-bannerM {
+  
+      display: none;    
+    
+      }
+
+
+      .img-banner {
+    
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+
+      .picture {
+
+        display: block;
+        height: 50%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+      
+      }
+
+      body {
+
+        background-color: BLACK;
+        ;
+      }
+
+      .bodytext {
+  
+        background-color: beige;
+        color: BLACK;
+      
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 90px;
+      
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+        font-size: 25px;
+        line-height: 40px;
+
+        border-radius: 20px;
+
+      
+      
+      
+      }
+
+      .MainHeadline {
+
+        text-align: center;
+        margin-top: 40px;
+
+        font-size: 40px;
+        line-height: 50px;
+
+        margin-bottom: 90px;
+
+        padding-top: 49px;
+
+        color: YELLOW;
+
+      
+      }
+      
+      video {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 40px;
+        margin-bottom: 90px;
+
+        height: 80%;
+        width: 80%;
+
+        padding-bottom: 60px;
+        
+      }
+
+
+
+      .video1 {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        height: 60%;
+        width: 60%;
+
+      }
+
+      .flexArea {
+
+        display: flex;
+        gap:20px;
+
+        flex-direction:row;
+
+
+      }
+
+
+      .indexPicFlex {
+
+
+        height: 50%;
+        width: 50%;
+
+      }
+
+      .pro {
+        font-weight: bolder;
+        color: RED;
+      }
+      
+  /* Footer Section */
+  
+  .footer2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    color:BLACK;
+    background-color: black;
+    
+    }
+    
+    .footerindex {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:black;
+      background-color: YELLOW;
+      
+      }
+
+      .footertext {
+
+        color: BLACK;
+
+      }
+
+      .btn2 {
+
+        color: black;
+        background-color: #E8BAE3;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+      }
+
+      .btn2:hover {
+
+        background-color: aqua;
+        color: black;
+
+      }
+
+      .footerpicture {
+
+        display: block;
+        height: 30%;
+        width: 30%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+        border-radius: 20px;
+
+        
+
+      }
+
+  
+    
+
+
+
+    }
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
